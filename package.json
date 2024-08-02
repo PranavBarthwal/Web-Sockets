@@ -1,0 +1,16 @@
+{
+  "name": "web-sockets",
+  "version": "1.0.0",
+  "description": "Traditional HTTP protocol follows a request-response model where the client requests data from the server, and the server responds. While this model works well for many applications, it has limitations, particularly in scenarios requiring real-time, bidirectional communication. Some of the key issues include:",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  }
+}
